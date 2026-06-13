@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Cheat Sheet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Git Cheat Sheet</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#commands">Commands</a></li>
+        <li><a href="#workflow">Workflow</a></li>
+        <li><a href="#tips">Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Git Cheat Sheet</h1>
+
+      <h2>Essential Git Commands for Beginners</h2>
+
+      <p>
+        Learn the most important Git commands used by developers every day.
+        Master version control and collaborate efficiently with Git and GitHub.
+      </p>
+
+      <a href="#commands" class="btn">
+        Explore Commands
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>What is Git?</h2>
+
+    <p>
+      Git is a distributed version control system that helps developers track
+      changes in code, collaborate with teams, and manage project history.
+    </p>
+
+    <div class="about-grid">
+
+      <div class="info-card">
+        <h3>Version Control</h3>
+        <p>
+          Track every change made to your project and restore previous versions
+          whenever needed.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Collaboration</h3>
+        <p>
+          Multiple developers can work on the same project without overwriting
+          each other's work.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Backup</h3>
+        <p>
+          Your project history remains safe and accessible through GitHub.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Commands Section -->
+  <section id="commands" class="section">
+    <h2>Common Git Commands</h2>
+
+    <div class="command-grid">
+
+      <!-- Git Init -->
+      <div class="command-card reveal">
+        <h3>git init</h3>
+
+        <div class="code-box">
+          <code>git init</code>
+          <button class="copy-btn" data-copy="git init">
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Initializes a new Git repository in your project folder.
+        </p>
+
+        <strong>Example:</strong>
+        <p>Create version control for a new website project.</p>
+      </div>
+
+      <!-- Git Status -->
+      <div class="command-card reveal">
+        <h3>git status</h3>
+
+        <div class="code-box">
+          <code>git status</code>
+          <button class="copy-btn" data-copy="git status">
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Displays the current state of your repository and tracked files.
+        </p>
+
+        <strong>Example:</strong>
+        <p>Check what files have changed before committing.</p>
+      </div>
+
+      <!-- Git Add -->
+      <div class="command-card reveal">
+        <h3>git add .</h3>
+
+        <div class="code-box">
+          <code>git add .</code>
+          <button class="copy-btn" data-copy="git add .">
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Stages all modified files for the next commit.
+        </p>
+
+        <strong>Example:</strong>
+        <p>Add all project updates before committing.</p>
+      </div>
+
+      <!-- Git Commit -->
+      <div class="command-card reveal">
+        <h3>git commit</h3>
+
+        <div class="code-box">
+          <code>git commit -m "message"</code>
+          <button
+            class="copy-btn"
+            data-copy='git commit -m "message"'
+          >
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Saves staged changes into the Git history.
+        </p>
+
+        <strong>Example:</strong>
+        <p>git commit -m "Added login page"</p>
+      </div>
+
+      <!-- Git Push -->
+      <div class="command-card reveal">
+        <h3>git push</h3>
+
+        <div class="code-box">
+          <code>git push origin main</code>
+          <button
+            class="copy-btn"
+            data-copy="git push origin main"
+          >
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Uploads local commits to the GitHub repository.
+        </p>
+
+        <strong>Example:</strong>
+        <p>Publish project updates to GitHub.</p>
+      </div>
+
+      <!-- Git Pull -->
+      <div class="command-card reveal">
+        <h3>git pull</h3>
+
+        <div class="code-box">
+          <code>git pull origin main</code>
+          <button
+            class="copy-btn"
+            data-copy="git pull origin main"
+          >
+            Copy
+          </button>
+        </div>
+
+        <p>
+          Downloads and merges latest changes from GitHub.
+        </p>
+
+        <strong>Example:</strong>
+        <p>Get teammate's latest updates.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Workflow Section -->
+  <section id="workflow" class="section">
+    <h2>Git Workflow</h2>
+
+    <div class="workflow">
+
+      <div class="step">git init</div>
+      <div class="arrow">↓</div>
+
+      <div class="step">git add .</div>
+      <div class="arrow">↓</div>
+
+      <div class="step">git commit</div>
+      <div class="arrow">↓</div>
+
+      <div class="step">git push</div>
+      <div class="arrow">↓</div>
+
+      <div class="step">git pull</div>
+
+    </div>
+  </section>
+
+  <!-- Tips -->
+  <section id="tips" class="section">
+    <h2>Beginner Tips</h2>
+
+    <div class="tips-grid">
+
+      <div class="tip-card">
+        <h3>Commit Frequently</h3>
+        <p>
+          Save progress regularly to keep project history organized.
+        </p>
+      </div>
+
+      <div class="tip-card">
+        <h3>Meaningful Messages</h3>
+        <p>
+          Write clear commit messages describing your changes.
+        </p>
+      </div>
+
+      <div class="tip-card">
+        <h3>Pull Before Push</h3>
+        <p>
+          Always sync latest changes before uploading your code.
+        </p>
+      </div>
+
+      <div class="tip-card">
+        <h3>Stay Organized</h3>
+        <p>
+          Use clean folder structures and maintain project documentation.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      Built with HTML, CSS & JavaScript • Git Cheat Sheet Project
+    </p>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast">
+    Command Copied!
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
