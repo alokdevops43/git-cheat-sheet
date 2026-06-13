@@ -7,7 +7,7 @@ A modern and responsive Git Cheat Sheet website built with HTML, CSS, and JavaSc
 
 
 ```text
-[https://your-username.github.io/git-cheat-sheet/](https://alokdevops43.github.io/git-cheat-sheet/)
+(https://alokdevops43.github.io/git-cheat-sheet/)
 ```
 
 ## Features
