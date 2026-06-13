@@ -2,13 +2,11 @@
 
 A modern and responsive Git Cheat Sheet website built with HTML, CSS, and JavaScript. This project provides a beginner-friendly reference for essential Git commands, version control concepts, and the basic Git workflow used by developers worldwide.
 
-## Live Demo
 
 
 
-```text
-sprightly-cucurucho-9e7dcb.netlify.app
-```
+
+
 
 ## Features
 
@@ -77,21 +75,7 @@ As part of my learning journey, I aim to build and publish **one small project e
 * Interactive command examples
 * Command categories and filtering
 
-## Getting Started
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/git-cheat-sheet.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd git-cheat-sheet
-```
-
-Open `index.html` in your browser.
 
 ## Author
 
