@@ -7,7 +7,7 @@ A modern and responsive Git Cheat Sheet website built with HTML, CSS, and JavaSc
 
 
 ```text
-gitzen.netlify.app
+sprightly-cucurucho-9e7dcb.netlify.app
 ```
 
 ## Features
