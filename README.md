@@ -7,7 +7,7 @@ A modern and responsive Git Cheat Sheet website built with HTML, CSS, and JavaSc
 
 
 ```text
-(https://alokdevops43.github.io/git-cheat-sheet/)
+gitzen.netlify.app
 ```
 
 ## Features
