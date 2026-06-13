@@ -4,10 +4,10 @@ A modern and responsive Git Cheat Sheet website built with HTML, CSS, and JavaSc
 
 ## Live Demo
 
-Add your GitHub Pages link here:
+
 
 ```text
-https://your-username.github.io/git-cheat-sheet/
+[https://your-username.github.io/git-cheat-sheet/](https://alokdevops43.github.io/git-cheat-sheet/)
 ```
 
 ## Features
